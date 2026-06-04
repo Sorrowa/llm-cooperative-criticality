@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "HYBRID-MH: a bias-controlled MH sampler for criticality in LLM multi-agent systems"
+message: "If you use this code or data, please cite this repository."
+type: software
+authors:
+  - name: "Sorrowa"
+    # Replace with your real name / affiliation / ORCID before citing.
+repository-code: "https://github.com/Sorrowa/llm-cooperative-criticality"
+abstract: >-
+  HYBRID-MH uses an LLM as the proposal distribution in a Metropolis-Hastings
+  chain against a pre-registered Ising target Hamiltonian, dividing out the
+  agent's intrinsic bias so that the chain samples the cooperative target by
+  detailed balance. Under this control the finite-size-scaling exponent on a 2D
+  lattice is statistically consistent with the 2D-Ising value (no new
+  universality class), while the framework retains discriminating power across
+  interaction topologies. Includes a classical-Ising control, raw chains, and a
+  full self-audit / retraction trail.
+keywords:
+  - large language models
+  - multi-agent systems
+  - phase transitions
+  - Metropolis-Hastings
+  - Ising model
+  - finite-size scaling
+license: MIT
