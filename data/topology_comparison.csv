@@ -1,0 +1,5 @@
+topology,dimensionality,behavior,gamma_nu_or_note,physics
+2D_lattice,finite-d,critical transition,0.821,the universality class
+scale_free,finite-d (small-world),critical transition,0.804,same class
+ring_1d,1D,no long-range order (chi flat ~2.2; |m| decreasing with N),no scaling (~0),1D has no finite-T transition (T_c=0)
+fully_connected,mean-field,frozen ordered (|m|->1.0; chi->0),trivial ordering (J_c ~ 1/N),mean-field orders trivially at fixed J

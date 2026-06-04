@@ -1,0 +1,6 @@
+# Analysis + figures (no GPU needed):
+numpy>=1.24
+matplotlib>=3.7
+# Optional — only for running HYBRID-MH with a real LLM backend:
+# vllm>=0.5
+# torch
